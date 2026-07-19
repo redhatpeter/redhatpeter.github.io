@@ -1,6 +1,6 @@
 ---
 title: Welcome to My Blog
-date: 2026-07-19 10:00:00 -0400
+date: 2026-07-18 12:00:00 -0400
 categories: [General]
 tags: [intro, meta]
 ---
