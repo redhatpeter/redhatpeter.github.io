@@ -4,13 +4,17 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Hi, I'm **Peter Lee**. I'm a software engineer who enjoys building things and
-writing about what I learn along the way.
+<!-- markdownlint-disable MD041 -->
 
-This blog is where I share notes on programming, tools, and systems.
+Hi, I'm **Peter Lee**, a Senior Cloud Solution Architect at Microsoft focused
+on AI and data.
+
+This blog is where I share technical perspectives, practical patterns, and
+lessons learned across AI, data, and Azure.
 
 ## Find me
 
 - GitHub: [@redhatpeter](https://github.com/redhatpeter)
+- LinkedIn: [Peter Lee](https://www.linkedin.com/in/peter-t-lee/)
 
 Feel free to reach out or browse the [archives]({{ '/archives' | relative_url }}).
