@@ -178,11 +178,19 @@ kramdown:
       start_line: 1
 
 collections:
+  reads:
+    output: true
+    permalink: /favorite-reads/:name/
   tabs:
     output: true
     sort_by: order
 
 defaults:
+  - scope:
+      path: ""
+      type: reads
+    values:
+      layout: reading
   - scope:
       path: "" # An empty string here means all files in the project
       type: posts

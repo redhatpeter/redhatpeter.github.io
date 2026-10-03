@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 5
+order: 6
 ---
 
 <!-- markdownlint-disable MD041 -->
@@ -25,6 +25,9 @@ Browse my [books and courses]({{ '/books-courses/' | relative_url }}) for detail
 
 My certification background spans cloud architecture, AI, developer tools, and
 infrastructure. The groups below summarize the badges in my certification collection.
+
+![Peter Lee's certification badges across Microsoft Azure, AWS, Google Cloud, GitHub Copilot, Kubernetes, Terraform, Consul, Databricks, and Aviatrix]({{ '/assets/img/profile/certifications.png' | relative_url }})
+_My certification badge collection. Select the image to view it at full size._
 
 ### Microsoft Azure and AI
 

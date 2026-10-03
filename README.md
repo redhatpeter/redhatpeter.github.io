@@ -49,6 +49,19 @@ image links, and referral/coupon codes there. Images live in
 [`assets/img/profile/`](assets/img/profile/); grouped certifications are on the
 [About page](_tabs/about.md).
 
+Personal book reflections appear in the [Favorite Reads listing](_tabs/favorite-reads.html),
+separate from authored books and courses. Add a Markdown file to `_reads/` using
+[`outliers.md`](_reads/outliers.md) as a template, with `title`, `book_author`,
+`description`, `image`, `image_width`, `image_height`, and numeric `order` front matter.
+Use the cover's actual pixel dimensions to preserve its proportions. Store covers in
+`assets/img/books/` and put the full reflection in the body. Each entry automatically
+gets a listing card and a detail page at `/favorite-reads/<filename>/`; it does not
+appear in the homepage's technical post list.
+
+Set `book_group` to `Technology & Engineering` or `Leadership & Life`. The listing
+generates category labels and filter counts from this metadata. Filters work
+without leaving the page; with JavaScript disabled, all books remain available.
+
 Chirpy generates the Books & Courses navigation entry from the tab's front matter.
 Its navigation and browser-title labels are defined in
 [`_data/locales/en.yml`](_data/locales/en.yml), which extends the theme's English labels.

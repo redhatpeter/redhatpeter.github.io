@@ -1,0 +1,13 @@
+---
+layout: page
+---
+
+<div class="content reading-detail">
+  <p><a href="{{ '/favorite-reads/' | relative_url }}">&larr; Back to Favorite Reads</a></p>
+  <h1>{{ page.title | escape }}</h1>
+  <p class="text-muted">By {{ page.book_author | escape }}</p>
+  <div class="reading-detail-cover">
+    <a href="{{ page.image | relative_url }}"><img src="{{ page.image | relative_url }}" alt="{{ page.title | escape }} book cover" width="{{ page.image_width }}" height="{{ page.image_height }}"></a>
+  </div>
+  {{ content }}
+</div>
