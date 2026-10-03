@@ -53,6 +53,15 @@ _My certification badge collection. Select the image to view it at full size._
 This collection includes credentials earned over time; it is not a live verification
 of renewal or expiration status.
 
+## Stanford University course completions
+
+Alongside my professional certifications, I've completed the following
+Stanford University courses, with completion credentials issued in August 2025:
+
+- **Machine Learning**
+- **Advanced Learning Algorithms**
+- **Supervised Machine Learning: Regression and Classification**
+
 ## Find me
 
 - GitHub: [@redhatpeter](https://github.com/redhatpeter)

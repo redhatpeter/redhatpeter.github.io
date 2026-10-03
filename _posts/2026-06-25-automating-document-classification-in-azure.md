@@ -4,25 +4,11 @@ description: "A practical overview of an event-driven Azure architecture for spl
 date: 2026-06-25 09:00:00 -0400
 categories: [Azure, Azure AI & Foundry]
 tags: [document-intelligence, durable-functions, azure-ai-search, microsoft-foundry, document-processing]
+image:
+  path: /assets/img/posts/automating-document-classification-in-azure-cover.png
+  alt: Microsoft Azure architecture for document ingestion, classification, metadata storage, vector indexing, and grounded conversational retrieval.
 toc: true
 ---
-
-<!-- markdownlint-disable MD033 -->
-<style>
-body { max-width: none !important; padding: 0 48px !important; background: #ffffff !important; color: #1a1a1a !important; }
-h1, h2, h3, h4 { color: #1a1a1a !important; }
-table { background: #ffffff !important; }
-th, td { background: #ffffff !important; color: #1a1a1a !important; border-color: #ddd !important; }
-blockquote { background: #fffbea !important; color: #1a1a1a !important; border-left: 4px solid #f0c040 !important; }
-code { background: #f4f4f4 !important; color: #c7254e !important; }
-pre, pre code { background: #f8f8f8 !important; color: #1a1a1a !important; }
-.mermaid { background: #ffffff !important; border: 1px solid #ddd; padding: 12px; }
-.mermaid .node rect, .mermaid .node polygon, .mermaid .node circle, .mermaid .node ellipse, .mermaid .node path { fill: #f5f5f5 !important; stroke: #666 !important; }
-.mermaid .edgeLabel, .mermaid .edgeLabel rect { background: #ffffff !important; color: #1a1a1a !important; fill: #ffffff !important; }
-.mermaid .label, .mermaid foreignObject div { color: #1a1a1a !important; }
-.mermaid marker { fill: #555 !important; stroke: #555 !important; }
-</style>
-<!-- markdownlint-enable MD033 -->
 
 > This is my personal summary of the Microsoft Learn architecture article [Automate document classification in Azure](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/architecture/automate-document-classification-durable-functions), for which I am the principal author. Microsoft maintains the original article and its current technical guidance. The views expressed here are my own.
 {: .prompt-info }

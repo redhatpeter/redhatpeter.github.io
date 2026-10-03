@@ -4,6 +4,9 @@ description: "What an industrial inspection project taught us about deterministi
 date: 2026-06-22 09:00:00 -0400
 categories: [Azure, Azure AI & Foundry]
 tags: [computer-vision, drones, industrial-ai, azure, generative-ai]
+image:
+  path: /assets/img/posts/from-drone-footage-to-reliable-inspections-cover.png
+  alt: A drone and marked industrial bolts illustrate automated bolt integrity monitoring and the transition from proof of concept to production-grade reliability.
 toc: true
 ---
 

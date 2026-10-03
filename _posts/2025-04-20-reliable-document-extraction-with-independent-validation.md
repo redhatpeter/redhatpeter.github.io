@@ -4,6 +4,9 @@ description: "An updated edition of the dual-path extraction pattern: strict sch
 date: 2025-04-20 09:00:00 -0400
 categories: [AI, Generative AI & LLMs]
 tags: [document-intelligence, human-in-the-loop, data-extraction, structured-outputs, azure]
+image:
+  path: /assets/img/posts/reliable-document-extraction-with-independent-validation-cover.png
+  alt: Illustrative dual-LLM document extraction, mismatch detection, and human-review workflow. Confidence values and accuracy goals shown are illustrative, not measured results or a production-readiness guarantee.
 toc: true
 ---
 
