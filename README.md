@@ -41,6 +41,27 @@ git add -A && git commit -m "your message" && git push
 
 GitHub Actions rebuilds and deploys automatically (~1 min).
 
+### Profile and learning resources
+
+The homepage keeps articles prominent with a compact link to the
+[Books & Courses page](_tabs/books-courses.html). Update resource descriptions,
+image links, and referral/coupon codes there. Images live in
+[`assets/img/profile/`](assets/img/profile/); grouped certifications are on the
+[About page](_tabs/about.md).
+
+Chirpy generates the Books & Courses navigation entry from the tab's front matter.
+Its navigation and browser-title labels are defined in
+[`_data/locales/en.yml`](_data/locales/en.yml), which extends the theme's English labels.
+The [`sidebar override`](_includes/sidebar.html) adds a small book feature, hidden
+on mobile and short screens to leave room for navigation. The professional
+description comes from `tagline` in [`_config.yml`](_config.yml).
+
+The [`homepage override`](_layouts/home.html) preserves Chirpy's post list and
+pagination, adding [`a compact resource link`](_includes/home-profile.html) on
+page one. When upgrading Chirpy, compare both overrides with the theme templates.
+Responsive styles live in
+[`assets/css/jekyll-theme-chirpy.scss`](assets/css/jekyll-theme-chirpy.scss).
+
 ## Theme docs
 
 Check out the [theme's documentation](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).

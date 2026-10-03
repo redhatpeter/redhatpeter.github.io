@@ -1,0 +1,172 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+.home-resources-note {
+  margin: 1.25rem 0 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--main-border-color);
+  color: var(--text-muted-color);
+  font-size: 0.9rem;
+
+  i {
+    margin-right: 0.35rem;
+  }
+}
+
+#sidebar {
+  .site-subtitle {
+    height: auto;
+  }
+
+  .sidebar-book {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-shrink: 0;
+    width: calc(100% - 3rem);
+    margin: 0 auto 1.25rem;
+    padding: 0.75rem 0;
+    border-top: 1px solid var(--main-border-color);
+    line-height: 1.4;
+
+    img {
+      flex-shrink: 0;
+      border-radius: 0.15rem;
+    }
+
+    span {
+      display: block;
+    }
+  }
+
+  .sidebar-book-label {
+    font-size: 0.7rem;
+    color: var(--site-subtitle-color);
+  }
+
+  .sidebar-book-title {
+    margin: 0.2rem 0;
+    font-size: 0.75rem;
+  }
+
+  .sidebar-book-link {
+    font-size: 0.7rem;
+
+    span {
+      display: inline;
+    }
+  }
+}
+
+.resources-intro {
+  max-width: 42rem;
+}
+
+.profile-resources {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.75rem 0;
+}
+
+.profile-resource {
+  overflow: hidden;
+  color: var(--text-color);
+  text-decoration: none;
+  border: 1px solid var(--main-border-color);
+  border-radius: 0.75rem;
+
+  a:focus-visible {
+    outline: 3px solid var(--link-color);
+    outline-offset: -3px;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  h2 {
+    margin: 0.4rem 0 1rem;
+    font-size: 1.05rem;
+    line-height: 1.4;
+  }
+
+  p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+}
+
+.profile-resource .profile-resource-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+  padding: 0.75rem;
+  background: var(--main-bg);
+  border-bottom: 0;
+  border-radius: 0;
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-bottom: 0;
+    background: none;
+
+    &::before {
+      content: none;
+    }
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+.profile-resource-type {
+  font-size: 0.75rem;
+}
+
+.profile-resource-link {
+  margin-top: auto;
+  color: var(--link-color);
+  font-size: 0.85rem;
+}
+
+.resources-footnote {
+  font-size: 0.85rem;
+}
+
+@media (max-width: 991.98px), (max-height: 800px) {
+  #sidebar .sidebar-book {
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .profile-resources {
+    grid-template-columns: 1fr;
+  }
+}
